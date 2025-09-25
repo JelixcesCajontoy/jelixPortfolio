@@ -12,6 +12,10 @@ const certificates = [
     name: 'Operating Systems Basics',
     badgeId: '992a9934-2755-4fc9-8f1a-6802e23fc854',
   },
+  {
+    name: 'Data Analytics Essentials',
+    badgeId: '318a164f-9964-4334-8966-3963046ac005',
+  },
 ];
 
 export function CertificatesSection() {
