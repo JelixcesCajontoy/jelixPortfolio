@@ -16,6 +16,10 @@ const certificates = [
     name: 'Data Analytics Essentials',
     badgeId: '318a164f-9964-4334-8966-3963046ac005',
   },
+  {
+    name: 'Introduction to Data Science',
+    badgeId: '8f3addbd-d571-4593-ae81-d989dfa14787',
+  },
 ];
 
 export function CertificatesSection() {
@@ -32,7 +36,7 @@ export function CertificatesSection() {
             </p>
           </div>
         </div>
-        <div className="grid gap-8 justify-center sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 justify-center sm:grid-cols-2 lg:grid-cols-4">
           {certificates.map((cert) => (
             <div key={cert.badgeId} className="flex flex-col items-center text-center">
               <div
